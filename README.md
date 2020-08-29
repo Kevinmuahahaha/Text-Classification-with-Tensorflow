@@ -1,15 +1,22 @@
 # Text-Classification-with-Tensorflow
 Auto tagging based on article content. Using proprietary data provided by transtives.net, which won't be provided.
+
 This is a project made for non-profit transgender organization Translives based in Mainland China.
+
 Translives aims to provide unbiased up-to-date information for transgenders across China.
 
 # Prepare your data
 Data fetched from database should look like: ( dictionary )
+```
 	{id:xxx, { title:xxx, text:xxx, tags:[ ...] } }
+```
 
 With pickel, this dictionary should be saved to "data_dict.pkl"
+
 with tl_util.py you may do:
+```
 	save_obj( your_dict, "data_dict" )
+```
 
 Tags should be saved to a seperate dictionary "tl_tag_dictionary" also using pickel.
 
