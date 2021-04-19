@@ -1,5 +1,5 @@
 # Text-Classification-with-Tensorflow
-Auto tagging based on article content. Using proprietary data provided by transtives.net, which won't be provided.
+Auto tagging based on article content. Using proprietary data provided by transtives.net, which won't be provided here.
 
 This is a project made for non-profit transgender organization Translives based in Mainland China.
 
@@ -40,7 +40,7 @@ The output will look like this(in json format):
 
 
 # Training your model
-"tensor_backend.py" training backend.
+"tensor_backend.py" for training.
 
 # Prepare your data for prediction
 "predict_data_reprocessing.py" processes file for predicting.
